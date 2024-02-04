@@ -1,7 +1,7 @@
 - The powershell dec2bin.ps1 code is to convert a text file containing an Array of 10-based integer into a binary file.
 - The dec2bin.cmd is to allow drag-and-drop an Input text for processing.
 
-- Input file format: comma separated array of 10-based integer representing a byte. E.g., '10,' in Input file will be converted to '0A' in binary in Output file.  
+- Input file format: comma separated array of 10-based integer representing a byte. E.g., '10,' (or 16-based hexadecimal, e.g., '0xA') in Input file will be converted to '0A' in binary in Output file.  
 All the Carriage-Return (0x0D) / Line-Feed (0x0A) / Space (0x20) characters in Input file are removed during conversion.  
 - The "example.txt" and "example.bin" demonstrates the result. 
 
