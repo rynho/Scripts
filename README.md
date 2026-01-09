@@ -1,11 +1,11 @@
 # VBS
-.vbs
+.vbs  
 Assorted VB scripts
 
 # Batch
+.cmd, .bat  
 Assorted DOS batch scripts
-.cmd, .bat
 
-#PowerShell
-.ps1
+# PowerShell
+.ps1  
 Assorted Windows PowerShell scripts
