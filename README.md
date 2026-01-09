@@ -1,5 +1,5 @@
-# VB-Scripts
-Assorted VBS scripts
+# VBS
+Assorted VB scripts
 
 # Batch
-Assorted DOS Batch scripts
+Assorted DOS batch scripts
