@@ -29,8 +29,8 @@
    The command itself is usually %0, first argument is %1, and so forth.  
    To expand a token representing a file path:
    - `d` means drive letter
-   - `f` means full path
    - `p` means path only (no drive letter or file name)
+   - `f` means full path
    - `n` means file name
    - `x` means extension
    
