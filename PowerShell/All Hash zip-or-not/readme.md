@@ -26,7 +26,7 @@ The five functions can then be called:
    for further analysis.
 
 
-A typical use case would be running below in order:
+## A typical use case would be running below in order:
 1. Right click the "main.ps1" script, and "Run with PowerShell".
    "7z.exe" should be in same folder of the script.
 
