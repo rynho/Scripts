@@ -2,28 +2,28 @@ Run main.ps1 using "." operator prefix to register CRC32 algorithm,
 as well as all functions for calculating hashes:
 `. .\main.ps1`
 
-The five functions can then be called:
-  `sum-crc32 <file name>`
-   Calculate CRC32 for one file, align with 7z calculation.
+## The five functions can then be called:  
+- `sum-crc32 <file name>`  
+Calculate CRC32 for one file, align with 7z calculation.
 
-  `Get-FolderCRC <folder name>`
-   Calculate CRC32 for every file in a folder recursively.
+- `Get-FolderCRC <folder name>`  
+Calculate CRC32 for every file in a folder recursively.
 
-   `7z-crc32 <file name>`
-   List CRC32 checksum of all content from single compressed package,
-   would it be either .zip, .7z, or .rar format.
+- `7z-crc32 <file name>`  
+List CRC32 checksum of all content from single compressed package,
+would it be either .zip, .7z, or .rar format.
 
-   `all-hash <folder name> [output]`
-   Calculate CRC32 for every file in a folder recursively;
-   for any compressed package amongst them, list the CRC32 checksum
-   of the content as well.
-   When define file name as [output] parameter, the CRC32 of every file
-   and compressed package prints into the output file.
+- `all-hash <folder name> [output]`  
+Calculate CRC32 for every file in a folder recursively;
+for any compressed package amongst them, list the CRC32 checksum
+of the content as well.
+When define file name as [output] parameter, the CRC32 of every file
+and compressed package prints into the output file.
 
-  `sort-HL7z <file name> <output file>`
-   Process the 7z-crc32 output file into same format as sum-crc32
-   (output in all-hash function), and append to "output file"
-   for further analysis.
+- `sort-HL7z <file name> <output file>`  
+Process the 7z-crc32 output file into same format as sum-crc32
+(output in all-hash function), and append to "output file"
+for further analysis.
 
 
 ## A typical use case would be running below in order:
