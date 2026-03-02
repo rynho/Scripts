@@ -188,17 +188,17 @@ function sort-HL7z ($file, $output) {
     switch -regex ($line) {
       '^>{8}.+>{8}$' {
         $flag = 0
-        countinue
+        continue
       }
 
       '^--$' {
         $flag = 1
-        countinue
+        continue
       }
 
       '^-{10}$' {
         $flag = 2
-        countinue
+        continue
       }
 
       '^Path = (.*)$' {
