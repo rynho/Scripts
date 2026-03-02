@@ -217,7 +217,7 @@ function sort-HL7z ($file, $output) {
         continue
       }
 
-      '^Modified = (.*)\.\d+$' {
+      '^Modified = (.{19}).*$' {
         $array[1] = $Matches[1].replace('-','')
         continue
       }
