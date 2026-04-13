@@ -5,7 +5,7 @@
 #   1. Put the Document.dat and this script in same folder.
 #   2. Right click in folder to "Open in Terminal".
 #   3. Run ".\dat2png" in powershell to extract .png into
-#      "_png"subfolder.
+#      "_png" subfolder.
 
 if (!(test-path -path ".\document.dat")) {
   write-host "DOCUMENT.DAT not presenting."
